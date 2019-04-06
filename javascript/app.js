@@ -11,7 +11,7 @@
 // 		document.getElementById('container').innerHTML = html+template;
 // 		})
 // });
-	let animations =['bounceIn','swing','bounceInRight','rubberBand','pulse','heartBeat','tada','lightSpeedIn','hinge','jello','wooble']
+	let animations =['bounceIn','swing','zoomOut','rubberBand','pulse','heartBeat','tada','fadeOutDownBig','bounceInUp','jello','wooble']
 	//function to put the recieved image url.
 	let putPicture=(id,image)=>{
 		var myDiv = document.createElement('img');
@@ -23,7 +23,7 @@
 			setInterval(function(){
 				// this.setAttribute('class','images');
 				el.setAttribute('class','images');
-			}, 3000);
+			}, 5000);
 		});
 		document.getElementById('container').appendChild(myDiv);
 	}
