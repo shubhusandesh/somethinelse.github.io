@@ -1,0 +1,90 @@
+body{
+	background-image: -webkit-linear-gradient(30deg, #e0c3fc 0%, #8ec5fc 100%);
+	background-image: -o-linear-gradient(30deg, #e0c3fc 0%, #8ec5fc 100%);
+	background-image: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+}
+#heading{
+	text-align: center !important;
+	color: #106c76 !important;
+	margin: 10px !important;
+	font-size: 30px !important;
+	text-transform: uppercase;
+}
+.mainContainer{
+	width: 90vw;
+	margin: 10vh auto;
+}
+.profilePicture{
+	width: 100%;
+}
+.upperform{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+input{
+	border-radius: 3px;
+}
+div.col-md-4 input{
+	padding:5px 8px;
+	width: 100%;
+}
+div.col-md-6 input{
+	padding:5px 8px;
+	width: 100%;
+}
+div.col-md-3 input{
+	padding:5px 8px;
+	width: 100%;
+}
+input::placeholder{
+	text-align: center;
+}
+input:focus{
+	color: grey;
+	outline: 1px solid red;
+}
+textarea[name='aboutYourself']{
+	width: 100%;
+	margin: 20px 15px;
+	padding: 20px;
+	resize: none;
+}
+textarea[name='aboutYourself']:focus{
+	outline: 1px solid red;
+	
+}
+textarea[name='aboutYourself']::placeholder{
+	font-size: 2em;
+	text-transform: capitalize;
+	text-align: center;
+}
+div select{
+	padding:5px 8px;
+	width: 100%;
+}
+input[type='checkbox']{
+	margin: ;
+}
+.col-md-12 span{
+	margin-left: 10px;
+}
+input[type='submit']{
+	padding: 10px 15px;
+	color:white;
+	background-color: #295d71;
+	border:none;
+	border-radius: 3px;
+}
+input[type='submit']:focus{
+	outline: none;
+}
+.flexIt{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;	
+}
+
+
+	
